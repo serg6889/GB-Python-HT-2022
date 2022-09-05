@@ -9,6 +9,6 @@ if x > 0 and y > 0:
 elif x > 0 and y < 0:
     print('Quater N-2')
 elif x < 0 and y < 0:
-    print('Quater N-4')
-elif x < 0 and y > 0:
     print('Quater N-3')
+elif x < 0 and y > 0:
+    print('Quater N-4')
