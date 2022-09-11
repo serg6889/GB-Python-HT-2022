@@ -18,7 +18,7 @@ for digit in num:
     if digit != '.':
         sum += int(digit)
 
-print (sum)
+print ('Sum of digits =',sum)
 
 
 
