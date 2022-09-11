@@ -1,6 +1,6 @@
 #Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
 
-# num = int(input('Input number  '))
+# num = abs(int(input('Input number  ')))
 # sumdigit = 0
 
 # while num > 0:
@@ -8,13 +8,15 @@
 #     sumdigit = sumdigit + digit 
 #     num = num // 10
 
-# print (sumdigit)    
+# print ('Sum of digits =',  sumdigit)    
 
-num = input('Input number  ')
+
+num = input('Input float number  ')
 sum = 0
 
 for digit in num:
-    sum += int(digit)
+    if digit != '.':
+        sum += int(digit)
 
 print (sum)
 
