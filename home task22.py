@@ -8,6 +8,6 @@
 
 n = int(input('Input N= '))
 a= 1
-for i in range (2, n+1):
+for i in range (n+1):
    a *= i
 print (a) 
