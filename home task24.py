@@ -5,12 +5,16 @@
 num = int(input())
 b = int(input())
 c = int(input())
-a = []
-mult = 0
-for i in range (-num-1, num):
-    a.append(i+1)
-print (a)
-while  (-num-1) <= b < (num+1) and (-num-1) <= c < (num+1):
-    mult = a[b] * a[c]
+a = list(range(-num, (num+1)))
+print(a)
+mult = a[b] * a[c]
 print(mult)
+
+# mult = 0
+# for i in range (-num-1, num):
+#     a.append(i+1)
+# print (a)
+# while  (-num-1) <= b < (num+1) and (-num-1) <= c < (num+1):
+#     mult = a[b] * a[c]
+# print(mult)
 
