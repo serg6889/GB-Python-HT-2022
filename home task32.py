@@ -9,15 +9,15 @@
 #    a.append(i+1)
 # print(a)
 
-def func(paramult):
+def func(a):
     tmp = []
     paramult = 0
     for i in range (len(a)):
         tmp.append[paramult]
         paramult+= a[i] * a[-i]
-        i+=1
+        
         return tmp
 
-a=[2, 3, 4, 5, 6]
+a=[0, 2, 3, 4, 5, 6]
 print(a)
 print(func(a))
