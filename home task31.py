@@ -9,22 +9,26 @@
 #     a.append(int(input()))
 # print(a)
 
-a = [2, 3, 5, 9, 3]
-print(a)
-sum = 0
-for i in range(len(a)):
-    if i % 2 != 0:
-        sum+=a[i]
-print(sum)
+# a = [2, 3, 5, 9, 3]
+# print(a)
+# sum = 0
+# for i in range(len(a)):
+#     if i % 2 != 0:
+#         sum+=a[i]
+# print(sum)
 
 
-# def listsum(numList):
+def listsum(numlist):
 
-#     Sum = 0
-#     for i in numList:
-#         if i % 2 != 0:
-#             Sum+= i
-#     return Sum
+    sum = 0
+    for i in range(len(numlist)):
+        if i % 2 != 0:
+            sum+= numlist[i]
+    return sum
+
+assert(listsum([2,3,5,9,3]) == 12)
+a= [2,3,5,9,3]
+print(listsum(a))
 
 # print(listsum([input('Input numbers')]))
 
