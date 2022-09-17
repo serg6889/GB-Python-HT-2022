@@ -4,8 +4,13 @@
 
 #a = list("Input numbers")
 
-a = [2, 3, 5, 9, 3]
+# a = []
+# for i in range(int(input())):
+#     a.append(int(input()))
+# print(a)
 
+a = [2, 3, 5, 9, 3]
+print(a)
 sum = 0
 for i in range(len(a)):
     if i % 2 != 0:
