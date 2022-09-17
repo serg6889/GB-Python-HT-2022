@@ -20,6 +20,6 @@
 # n = [1.1, 1.2, 3.1, 5, 10.01]
 
 
-n = list(map(float, input("Input number:\n").split()))
+n = list(map(float, input("Input number: \n").split()))
 a = [round(i%1, 3) for i in n]
 print(max(a) - min(a))
