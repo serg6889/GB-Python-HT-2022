@@ -20,3 +20,4 @@ def bin(n):
  
 n = int(input())
 print(bin(n))
+assert(bin(45) == '101101' )

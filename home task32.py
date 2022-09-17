@@ -3,25 +3,6 @@
 #Пример:
 #[2, 3, 4, 5, 6] => [12, 15, 16];
 
-# num = int(input())
-# a = [ ]
-# for i in range (-1, num+1):
-#    a.append(i+1)
-# print(a)
-
-# def func(a):
-#     tmp = []
-#     paramult = 0
-#     for i in range (len(a)):
-#         tmp.append[paramult]
-#         paramult+= a[i] * a[-i]
-        
-#         return tmp
-
-# a=list(map(int, input("Input number: \n").split()))
-# print(a)
-# print(func(a))
-
 
 def multpara(lst):
     l = len(lst)//2  
