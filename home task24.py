@@ -11,6 +11,7 @@ mult = a[b] * a[c]
 print(mult)
 
 # mult = 0
+# a = [] 
 # for i in range (-num-1, num):
 #     a.append(i+1)
 # print (a)
